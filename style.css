@@ -1,0 +1,32 @@
+body {
+    background: url("http://s3.media.squarespace.com/production/465215/5307116/wp-content/uploads/2009/11/Iconic-ET.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+};
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+};
+
+h1 {
+    font: ariel;
+}
+
+.jumbotron {
+    opacity: .6
+};
+
+.btn-primary {
+    margin-left: 10px;
+}
+
+#add {
+    color: white;
+    font-size: 14
+}
+

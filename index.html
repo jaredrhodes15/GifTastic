@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!--CSS-->
     <link rel="stylesheet" href="style.css">
-<!--Javascript-->
-    <script src="app.js"></script>
 <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+<!--Javascript-->
+<script src="app.js"></script>
 
-    <title>GifTastic Movies</title>
+<title>GifTastic Movies</title>
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid">
@@ -28,7 +28,27 @@
         <div id="moviesArr"></div>
         <div class="gifs"></div>
     </div>
-           
+    <div id="movie-buttons"></div>
+    <br>
+    <br>
+    <div class="container" id="btn" style="background: transparent;"></div>
+        <form id="movie-form">
+            <label id="add" for="movie-input">Enter The Movie You Want Gifs For!</label>
+            <input type="text" class="form-control" id="movie-input">
+        <br>
+        <br>
+        </form>
+        <button onclick="submitButtonClicked()" type="button" id="add-movie" class="btn btn-success">Submit</button>
+        <br>
+        <br>
+        <div id="movies"> </div>
+    </div>
+       
     </container>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
 </body>
 </html>
